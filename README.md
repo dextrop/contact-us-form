@@ -1,27 +1,15 @@
 # ContactUsForm
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
+The project is part of tutorial representing how to create a contact us form and deploy it on github with backend db as Firestore Database.
 
-## Development server
+## Development Steps
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+The developement process uses ( Firebase, Jennie Automation and Github ) as extra resource.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. If you have not registered for Jennie, go to https://automations.ask-jennie.com and register. Download Jennie package and login using `jennie setup <user-email-address>`
+2. Create an angular project.
+3. Install Bootstrap using Jennie.
+4. Download Angular Contact US theme from Jennie.
+5. Download Angular automations firebase firestore db.
+6. Create Firestore Application, copy configration and replace in current application.
+7. Use contact us theme and on submit add value to Firestore Firebase.
